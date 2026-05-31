@@ -10,5 +10,5 @@ export default defineConfig({
       presets: [reactCompilerPreset()] 
     }),
   ],
-  base: process.env.VITE_BASE_PATH || '/react-task-app/' 
+  base: process.env.VITE_BASE_PATH || '/' 
 })
